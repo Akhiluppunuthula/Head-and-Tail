@@ -28,7 +28,7 @@ const HeadAndTail = () => {
   };
 
   return (
-    <div className="main">
+    <div className="w-screen h-screen overflow-hidden">
       <div className="flex justify-center	my-4 gap-6">
       <select value={selectValue} onChange={valueHandle} className="border-2 rounded-md  py-2 border-sky-500">
         <option value="" disabled>Select Value</option>
